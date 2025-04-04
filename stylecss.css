@@ -1,0 +1,46 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+
+
+body{
+
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1{
+
+    color: purple;
+}
+
+.Principal{
+    background-color: navajowhite;
+}
+    
+.Principal a {
+
+    text-decoration: none ;
+
+}
+
+.items{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    position: relative; 
+    left: 1200px;
+
+}
+
+.Principal a:hover{
+color: white;
+background-color: black;
+
+}
+
+.listaexp{
+ padding-left: 25%;
+}
