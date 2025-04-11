@@ -1,46 +1,99 @@
-*{
-margin: 0px;
-padding: 0px;
-
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
 }
 
-
-body{
-
-font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "nunito", sans-serif;
+  background-color: black; 
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-h1{
-
-    color: purple;
+.Principal { /*Etiqueta contenedora*/
+  width: 100vw;
+  background-color: navajowhite;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.Principal{
-    background-color: navajowhite;
-}
-    
-.Principal a {
-
-    text-decoration: none ;
-
+.principal img { /*img del header*/
+  display: flex;
+  width: 100px;
+  height: 100px;
 }
 
-.items{
+.items {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.items a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 50px;
+}
+
+.Principal a:hover {
+  background-color: black;
+}
+
+.quiensoy {
     width: 100%;
-    height: 50px;
-    display: inline-block;
-    position: relative; 
-    left: 1200px;
-
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.Principal a:hover{
-color: white;
-background-color: black;
+.quiensoy img {
+    width: 50%;
+  }
+
+.info {
+    display: flex;
+    gap: 20px; /*esto lo uso para separar los elementos dentro de info*/
+    flex-direction: column;
+    width: 50%;
+    padding-right: 50px;
+ }
+
+ .hola {
+      font-family: "Verdana";
+      font-size: 75px;
+    }
+  
+.herramientas img{
+      width: 100px;
+      margin: 20px;
+    }
+
+ .info_herra {  
+        font-size: 30px;
+    }
+
+.datos {
+    display: flex;
+    justify-content: space-around;
 
 }
-
-.listaexp{
- padding-left: 25%;
+.sobremi {
+  font-size: 20px;
 }
+
