@@ -1,2 +1,2 @@
 # compu3
-Buenas. A veces me pasa que me mareo un poco por la cantidad de cosas que agrego y borro pero durante el finde voy a acomodar todo el codigo ya que esta bastante desprolijo. Gracias!
+No pude avanzar durante el finde como me hubiese gustado. Pero si pude acomodar algunas cosas que me molestaban visualmente. Gracias.
